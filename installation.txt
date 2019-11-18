@@ -1,0 +1,27 @@
+Q    : CREATE DJANGO PROJECT
+CMD  : django-admin startproject ProjectName
+
+Q    : GET VERSION OF DJANGO
+CMD  : python -m django --version      LATEST(2.2.7)
+
+Q    : TO RUN SERVER
+CMD  : python manage.py runserver
+
+
+
+
+
+APP
+
+Q    : TO CREATE APP IN PYTHON
+CMD  : python manage.py startapp appName
+	
+	
+	
+	
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+November 18, 2019 - 11:35:28
+
+
+cmd : python manage.py migrate
